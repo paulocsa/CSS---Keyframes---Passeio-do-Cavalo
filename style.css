@@ -1,0 +1,65 @@
+body{
+    background-color: #ffffff;
+}
+#anima-div{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    border-radius: 0%;
+    animation: mov-div 10s infinite ;
+}
+/* @keyframes mov-div{
+    from{top: 0px;}
+    to{top: 300px;}
+} */
+/* @keyframes mov-div{
+    0%{top: 0px;}
+    25%{top: 500px;}
+    50%{top: 500px;left: 500px;}
+    75%{top: 500px; left: 500px; }
+    100%{top: 0px; }
+} */
+
+/* @keyframes mov-div{
+    0%{top: 0px; left: 0px; }
+    25%{top: 220px; left: 0px; }
+    50%{top: 220px; left: 80px; }
+    75%{top: 290px; left: 80px;}
+    100%{top: 360px; left: 80px; }
+} */
+
+@keyframes mov-div {
+    0%{top: 0px;left: 0px;}
+    5%{top: 000px;left: 80px;}
+    10%{top: 140px;left: 80px;}
+    15%{top: 140px;left: 150px;}
+    20%{top: 290px;left: 150px;}
+    25%{top: 290px;left: 220px;}
+    30%{top: 435px;left: 220px;}
+    35%{top: 430px;left: 290px;}
+    40%{top: 505px;left: 290px;}
+    45%{top: 430px;left: 290px;}
+    50%{top: 430px;left: 220px;}
+    55%{top: 290px;left: 220px;}
+    60%{top: 290px;left: 150px;}
+    65%{top: 140px;left: 150px;}
+    70%{top: 140px;left: 80px;}
+    75%{top: 0px;left: 80px;}
+    80%{top: 0px;left: 0px;}
+
+    
+}
+/* @keyframes mov-div{
+    0%{width: 200px; background-color: yellow;}
+    50%{width: 900px; background-color: green;}
+    100%{width: 200px; background-color: yellow;}
+} */
+
+td{
+    align-items: center;
+    width: 60px;
+    height: 60px;
+}
+#td1{
+    background-color: #000000;
+}
